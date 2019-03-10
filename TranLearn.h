@@ -5,7 +5,7 @@
 
 class TranLearn : public SVDTrainer {
 protected:
-	float alphas;
+  	float alphas;
 	vector<vector<Node> > mD2DMatrix;
 private:
 	void init();
